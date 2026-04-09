@@ -63,3 +63,63 @@ Basic commands:
 
 ## 💡 Personal Notes
 Linux is essential for cybersecurity because most servers run on it. Learning the terminal is a key step toward becoming a SOC analyst.
+
+---
+
+## 🔎 Useful Commands
+
+### grep
+Search for specific text inside files.
+
+Example:
+grep "error" logfile.txt
+
+---
+
+### && (AND operator)
+Run the next command only if the previous one succeeds.
+
+Example:
+mkdir test && cd test
+
+---
+
+### > (Overwrite output)
+Redirect output to a file (overwrites existing content).
+
+Example:
+echo "hello" > file.txt
+
+---
+
+### >> (Append output)
+Add output to a file without deleting existing content.
+
+Example:
+echo "world" >> file.txt
+
+---
+
+## 🔍 Advanced Useful Commands
+
+### find
+Search for files and directories.
+
+Example:
+find /home -name "file.txt"
+
+---
+
+### wc (word count)
+Counts lines, words, and characters.
+
+Example:
+wc logfile.txt
+
+---
+
+### -R (Recursive search)
+Used with commands like grep to search inside folders.
+
+Example:
+grep -R "error" /var/log
