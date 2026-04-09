@@ -76,11 +76,34 @@ grep "error" logfile.txt
 
 ---
 
+### & (Run in background)
+Runs a command in the background so the terminal can still be used.
+
+Example:
+sleep 10 &
+
+---
+
+## 🧠 Why "&" is Useful
+
+Running commands in the background allows multitasking, which is useful when:
+
+- running long processes
+- monitoring systems
+- performing multiple operations simultaneously
+
+---
+
 ### && (AND operator)
 Run the next command only if the previous one succeeds.
 
 Example:
 mkdir test && cd test
+
+---### Difference between & and &&
+
+- & → runs command in background
+- && → runs next command only if previous succeeds
 
 ---
 
